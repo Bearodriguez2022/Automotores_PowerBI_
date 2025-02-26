@@ -7,12 +7,20 @@ Para ello, ha decidido contratarme como Analista de datos, con el objetivo de de
 Las medidas DAX utilizadas:
 
 *% Utilidad = DIVIDE([Utilidad], [Ventas])
+
 *Autos Vendidos = COUNTA(Ventas[ID Auto])
+
 *Ciudades = DISTINCTCOUNT(Ventas[Ciudad]) 
+
 *Clientes = DISTINCTCOUNT(Ventas[ID Cliente])
+
 *Costo = SUM(Ventas[Costo Auto])
+
 *Paises = COUNTA(Pais[ID Pais])
+
 *Utilidad = [Ventas] - [Costo] 
+
 *Vendedores = DISTINCTCOUNT(Ventas[Vendedor])
+
 *Ventas = SUM(Ventas[Precio Venta]) 
 
