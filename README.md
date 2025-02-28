@@ -6,7 +6,7 @@ Para ello, ha decidido contratarme como Analista de datos, con el objetivo de de
 
 Las medidas DAX utilizadas:
 
-*% Utilidad = DIVIDE([Utilidad], [Ventas])
+*(% Utilidad = DIVIDE([Utilidad], [Ventas]))
 
 *Autos Vendidos = COUNTA(Ventas[ID Auto])
 
